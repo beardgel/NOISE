@@ -1,0 +1,25 @@
+{
+    "name": "noise",
+    "version": "1.0.0",
+    "description": "A utility to generate a json file with spotify data to display in the beardgel.ca releases area",
+    "main": "index.js",
+    "scripts": {
+        "start": "node -r dotenv/config index.js",
+        "test": "echo \"Error: no test specified\" && exit 1"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/beardgel/NOISE.git"
+    },
+    "author": "The Beardgel Collective / Suraj Goraya",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/beardgel/NOISE/issues"
+    },
+    "homepage": "https://github.com/beardgel/NOISE#readme",
+    "dependencies": {
+        "chalk": "^4.0.0",
+        "dotenv": "^8.2.0",
+        "spotify-web-api-node": "^4.0.0"
+    }
+}
